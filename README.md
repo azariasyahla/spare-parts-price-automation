@@ -1,4 +1,4 @@
-# Spare Parts Price Automation
+# Browser Extention: Spare Parts Price Automation
 
 Browser extensions for Chrome and Edge that search principal portals using part numbers from Excel and export extracted prices into the original workbook.
 
