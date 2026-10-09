@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "BT Click Test",
+  "version": "0.1.6",
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://parts.toyota-forklifts.eu/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

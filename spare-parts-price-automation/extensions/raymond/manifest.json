@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Raymond Click Test",
+  "version": "0.1.1",
+  "description": "Baca Your Price untuk PN lengkap pada sesi Raymond yang sudah login.",
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://raymond.tmhna.com/*",
+    "https://iparts.tmhna.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

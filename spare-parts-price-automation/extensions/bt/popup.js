@@ -1,0 +1,1 @@
+document.getElementById('open').onclick=async()=>{const [tab]=await chrome.tabs.query({active:true,currentWindow:true});if(!tab.url?.startsWith('https://parts.toyota-forklifts.eu/'))return alert('Buka tab BT yang sudah login, menu Search > PARTS.');await chrome.windows.create({url:chrome.runtime.getURL('runner.html')+'?tab='+tab.id,type:'popup',width:850,height:750});};
